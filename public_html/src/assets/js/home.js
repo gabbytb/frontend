@@ -27,6 +27,7 @@ var clearinterval = setInterval(function() {
 }, 1000);
 
 
+/*** TEST AJAX REQUEST ***/
 function getTODOListFromBackend() {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
