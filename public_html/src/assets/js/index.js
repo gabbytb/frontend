@@ -19,7 +19,7 @@ var clearinterval = setInterval(function() {
     console.log(randomNumber2);
     console.log(randomNumber3);
 
-    countdownValue % 2 === 0 ? containerElement.style.backgroundColor = "rgb(" + "," + "," + randomNumber1 + ")" : containerElement.style.backgroundColor = "rgb(" + randomNumber1 + "," + randomNumber2 + "," + randomNumber3 + ")";
+    containerElement.style.backgroundColor = "rgb(" + randomNumber1 + "," + randomNumber2 + "," + randomNumber3 + ")";
 
     if (countdownValue === 0) {
         clearInterval(clearinterval);
